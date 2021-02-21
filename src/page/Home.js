@@ -83,7 +83,7 @@ const Item = ({ item, onPress, style }) => (
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#ffeb94",
+    backgroundColor: "#82e9de",
     flex: 1,
     flexDirection: "column",
     // height: ScreenHeight,
@@ -96,9 +96,9 @@ const styles = StyleSheet.create({
   },
   card: {
     margin: 10,
-    backgroundColor: "#FFF",
+    backgroundColor: "#00867d",
     borderWidth: 4,
-    borderColor: "#facc00",
+    borderColor: "#4db6ac",
     borderStyle: "solid",
     borderRadius: 25,
     shadowColor: "rgba(0,0,0,1)",
@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
 
   itemText: {
     fontFamily: "roboto-700",
-    color: "#ffcd05",
+    color: "#ffffff",
     fontSize: 30,
     textAlign: "center",
     // marginTop: 51,

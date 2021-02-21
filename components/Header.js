@@ -4,13 +4,13 @@ import { Header } from 'react-native-elements'
 
 
 const ScreenHeight = Dimensions.get("window").height;
-function Headers(props, { title }) {
+function Headers(props) {
     const { navigation } = props;
     return (
         <Header
-            backgroundColor={"#e6b800"}
+            backgroundColor={"#4db6ac"}
             leftComponent={{ icon: 'menu', color: '#fff', size: 45, onPress: () => navigation.openDrawer(), }}
-            centerComponent={{ text: title, style: { color: '#fff', fontSize: 30 } }}
+            centerComponent={{ text: props.title, style: { color: '#fff', fontSize: 30 } }}
             rightComponent={{ icon: `account-circle`, color: '#fff', size: 45, onPress: () => alert('444'), }}
         />
 

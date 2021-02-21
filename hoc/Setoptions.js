@@ -12,6 +12,8 @@ export default Setoptions => props => {
     const setHeader = () => {
         if (route.name == "Iot") {
             return <Header title="IOT" {...props} />
+        }else if(route.name == "Map"){
+            return <Header title="แผนที่ร้านกระท่อม" {...props} />
         }else{
             return <Header {...props}/>
         }
